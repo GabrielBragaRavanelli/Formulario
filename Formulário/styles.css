@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #0c0ce94d;
+}
+
+.container{
+
+    display: flex;
+    width: 80%;
+    height: 80vh;
+}
+
+.form-image{
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem;
+    background-color: #fde3;
+ 
+}
+
+.form-image img{
+    width:31rem;
+
+}
+
+.form{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #fff;
+    padding: 3rem;
+    flex-direction: column;
+}
+
+.form-header{
+    display: flex;
+    margin-bottom: 3rem;
+    justify-content: space-between;
+
+}
+
+.login-button{
+    display: flex;
+    align-items: center;
+
+}
+
+.login-button button{
+    border: none;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #6b63ff;
+}
+
+.login-button button:hover{
+    background-color: #6b63fff1;
+
+}
+
+.login-button button a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.form-header h1::after{
+    content:"";
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #6b63ff;
+
+}
+
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:1.2rem;
+    padding: 0 0.5rem;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    width:48%;
+}
+
+.input-box input{
+    margin: 0;
+    border: none;
+    box-shadow: 1px 1px 6px #00001c;
+    border-radius: 10px;
+    padding: 0.8rem 1.2rem;
+    width: 100%;
+
+}
+
+.input-box input:hover{
+    background-color: #eeeeee75;
+
+}
+
+.input-box label{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.gender-title h6{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0.8rem;
+    text-align: center
+}
+
+.input-box input::placeholder{
+    color: #000000be;
+
+}
+
+.gender-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+}
+
+.gender-input{
+    display: flex;
+    align-items: center;
+
+}
+
+.gender-input input{
+    
+    margin-right: 0.5rem;
+}
+
+.gender-input label{
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+
+}
+
+.botão-continuar button{
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #6b63ff;
+    padding: 0.62rem;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.botão-continuar button:hover{
+    background-color: #6b63ff;
+
+
+}
+
+.botão-continuar button a{
+text-decoration: none;
+color: black;
+font-size: 0.93rem;
+font-weight: 500;
+
+}
